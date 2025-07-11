@@ -21,6 +21,5 @@ app.get('/health', () =>{
 })
 
 app.listen({ port: env.PORT}).then(() => {
-  console.log(`Port: ${process.env.PORT}`)
-  console.log('HTTP server running!!!')
+  
 })
