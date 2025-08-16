@@ -15,6 +15,13 @@
       "when": 1752678629821,
       "tag": "0001_mighty_shadow_king",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1754837136639,
+      "tag": "0002_charming_ultragirl",
+      "breakpoints": true
     }
   ]
 }
