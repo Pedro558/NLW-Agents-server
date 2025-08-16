@@ -1,6 +1,16 @@
-# NLW Agents
+## 📝 Sobre o Projeto
 
-Projeto desenvolvido durante o **NLW Agents** utilizando tecnologias modernas para criação de uma API robusta e eficiente.
+O NLW Agents é uma API desenvolvida para gerenciar salas de aula virtuais e interativas, permitindo a criação de perguntas e respostas baseadas em transcrições de áudio. O principal objetivo do projeto é facilitar a organização e o acesso a conteúdos educacionais, utilizando tecnologias modernas como processamento de linguagem natural e vetores para busca semântica.
+
+## 🛠️ Funcionalidades Principais:
+
+- Gerenciamento de Salas: Criação e listagem de salas com descrições personalizadas.
+- Envio de Áudios: Upload de áudios para uma sala específica, com transcrição automática e geração de embeddings para busca semântica.
+- Criação de Perguntas: Envio de perguntas relacionadas ao conteúdo da sala, com respostas automáticas baseadas nas transcrições dos áudios enviados.
+- Busca Semântica: Utilização de vetores para encontrar trechos relevantes dos áudios e gerar respostas precisas.
+- API Simples e Intuitiva: Endpoints organizados para facilitar a integração com aplicações externas.
+
+Este projeto é ideal para instituições de ensino, plataformas de e-learning ou qualquer cenário que exija organização e interação com conteúdos educacionais de forma eficiente e moderna.
 
 ## 🚀 Tecnologias
 
