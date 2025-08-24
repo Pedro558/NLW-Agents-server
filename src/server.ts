@@ -7,7 +7,7 @@ import {
 } from 'fastify-type-provider-zod'
 import { fastifyCors } from '@fastify/cors';
 import { env } from './env.ts';
-
+import "dotenv/config";
 import { sql } from './db/connection.ts';
 import { getRoomsRoute } from './http/routes/get-rooms.ts';
 import { createRoomRoute } from './http/routes/create-room.ts';
