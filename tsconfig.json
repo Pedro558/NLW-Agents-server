@@ -2,17 +2,17 @@
   "$schema": "https://json.schemastore.org/tsconfig",
   "_version": "20.1.0",
   "compilerOptions": {
-    "lib": [
-      "es2023"
-    ],
+    "lib": ["es2023"],
     "module": "nodenext",
     "target": "es2022",
-    "noEmit": true,
     "allowImportingTsExtensions": true,
+    "noEmit": true,
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "moduleResolution": "node16",
     "strictNullChecks": true
-  }
+  },
+  "include": ["src"],        // 👈 compile only `src/`
+  "exclude": ["node_modules"]
 }
